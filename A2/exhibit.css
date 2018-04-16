@@ -197,11 +197,11 @@ footer {
 }
 
 #location {
-	padding: 20px;
+	padding: 50px;
 }
 
 #hours {
-	padding: 20px;
+	padding: 50px;
 }
 
 header, footer, .display {
@@ -209,10 +209,6 @@ header, footer, .display {
 	width: 100%;
 
 	padding: 0px;
-}
-
-footer {
-	padding: 20px;
 }
 
 /* Extra Credit */
