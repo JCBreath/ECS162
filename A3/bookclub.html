@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Book Club</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="bookclub.css">
+	<link href="https://fonts.googleapis.com/css?family=roboto" rel="stylesheet">
+</head>
+
+<body>
+	<header id="header">
+		<div id="header-title">
+			<h1 id="header-title-text">BOOK CLUB</h1>
+		</div>
+ 	
+ 		<div id="search">
+ 			<h2 id="search-heading">Search for a book by...</h2>
+			<div id="search-inputs">
+ 				<div class="search-block">
+ 					<a class="search-opt">Author</a>
+ 					<input id="author" placeholder="ex William Shakespeare">
+ 				</div>
+ 				<a id="or-1" class="or">or</a>
+ 				<div class="search-block">
+ 					<a class="search-opt">Title</a>
+ 					<input id="title" placeholder="ex Romeo and Juliet">
+ 				</div>
+ 				<a id="or-2" class="or">or</a>
+ 				<div class="search-block">
+ 					<a class="search-opt">ISBN</a>
+ 					<input id="isbn" placeholder="ex 000-0-00-000000-0">
+ 				</div>
+ 			</div>
+ 			<button id="search-btn" onclick="newRequest()">Search</button>
+ 		</div>
+ 	</header>
+
+ 	<div id="bookDisplay">
+ 	</div>
+
+<!-- The Javascript for this page -->
+<script src="bookclub.js"> </script>
+
+<!-- The JSONp request -->
+<script id="dummy"></script>  
+
+</body>
